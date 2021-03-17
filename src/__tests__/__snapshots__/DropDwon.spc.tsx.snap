@@ -1,55 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DropDown 1`] = `
-<div
-  className="sc-bdfBwQ bIPwkc"
-  onKeyDown={[Function]}
->
-  <button
-    className="sc-gsTCUz igZWfW"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-  >
-    OPEN MENU
-  </button>
-  <ul
-    aria-hidden={true}
-    className="sc-dlfnbm QmoUQ"
-    data-testid="menulist"
-  >
-    <li
-      aria-selected={false}
-      className="sc-hKgILt iFIRZH"
-      onClick={[Function]}
-    >
-      Action
-    </li>
-    <li
-      aria-selected={false}
-      className="sc-hKgILt iFIRZH"
-      onClick={[Function]}
-    >
-      Another action
-    </li>
-    <li
-      aria-selected={true}
-      className="sc-hKgILt iFIRZH"
-      onClick={[Function]}
-    >
-      Active Item
-    </li>
-    <li
-      aria-selected={false}
-      className="sc-hKgILt iFIRZH"
-      onClick={[Function]}
-    >
-      Something
-    </li>
-  </ul>
-</div>
-`;
-
 exports[`DropDown snapshot 1`] = `
 <div
   className="sc-bdfBwQ bIPwkc"
