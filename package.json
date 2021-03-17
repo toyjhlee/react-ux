@@ -59,7 +59,6 @@
   },
   "husky": {
     "hooks": {
-      "**comment_pre-commit**": "lint-staged",
       "pre-push": "npm run test"
     }
   },
