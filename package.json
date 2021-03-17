@@ -60,7 +60,7 @@
   "husky": {
     "hooks": {
       "**comment_pre-commit**": "lint-staged",
-      "pre-push": "yarn eslint && yarn test"
+      "pre-push": "npm run test"
     }
   },
   "files": [
