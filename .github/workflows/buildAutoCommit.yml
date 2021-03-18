@@ -41,11 +41,11 @@ jobs:
       - name: Build 🚛
         run: npm run build
         
-      - name: commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4.1.6
-        with:
-          commit_message: add build ${{ steps.extract_version.outputs.version }}
-          branch: ${{ github.head_ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       - name: commit changes
+#         uses: stefanzweifel/git-auto-commit-action@v4.1.6
+#         with:
+#           commit_message: add build ${{ steps.extract_version.outputs.version }}
+#           branch: ${{ github.head_ref }}
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
